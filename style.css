@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 50rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    margin-top: 50px;
+    width: 50%;
+    min-height: 45rem;
+    /* margin-top: 14px;
+    width: 50%;
+    min-height: 34rem; */
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+/* .group:nth-child(1) {
+    min-height: 19rem;
+} */
+
+.instagram-logo {
+    height: 3rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.instagram-user {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    width: 80%;
+}
+::-webkit-input-placeholder{
+    color: #a5a5a5;
+}
+
+.instagram-ou {
+    font-size: 12px;
+    font-weight: bold;
+    color: #a5a5a5;
+    margin: 1rem 0 2rem 0;
+}
+
+.entrada_facebook {
+    display: flex;
+    color: #385185;
+    margin-bottom: 15px;
+}
+.icon_facebook {
+    width: 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+.span_facebook {
+    font-size: 11px;
+    color: #385185;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 9px 129px;
+    border-radius: 4px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    border: none;
+    width: 80%;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+/* .not-account {
+    color: rgb(160, 160, 160);
+} */
+.not_account-cadastro {
+    color: #45b2fc;
+    font-weight: bold;
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
+
+/* .instagram-user {
+    padding: 10px;
+    width: 80%;
+    margin: 0px 40px 6px;
+    border: 1px solid #e6e6e6;
+    background-color: #fafafa;
+    border-radius: 2px;
+    font-size: 12px;
+}
+::-webkit-input-placeholder{
+    color: #adadad;
+}
+.instagram-button {
+    width: 80%;
+    margin: 15px 40px 8px 40px;
+}
+.instagram-ou {
+    margin: 10px 40px 18px;
+    display: flex;
+    color: #adadad;
+}
+.instagram-ou_espaco {
+    margin: 5px 10px;
+    font-size: 12px;
+} */
